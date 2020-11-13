@@ -1,20 +1,6 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
-
-Plugin 'VundleVim/Vundle.vim'
-Bundle 'kien/ctrlp.vim'
-Bundle 'tpope/vim-fugitive'
-Bundle 'airblade/vim-gitgutter'
-Bundle 'bling/vim-airline'
-Bundle 'plasticboy/vim-markdown'
-Bundle 'scrooloose/nerdtree'
-Bundle 'FStarLang/VimFStar'
-call vundle#end()            " required
-filetype plugin indent on    " required
-
 
 syntax on
 set mouse=a
